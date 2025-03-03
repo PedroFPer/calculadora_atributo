@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+body{
+    padding: 0%;
+    margin: 0%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header , footer{
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: rgb(14, 97, 153);
+}
+
+main{
+    width: 80vw;
+    height: 100vh;
+
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: rgb(181, 203, 218);
+}
+
+main article{
+    text-align: center;
+    margin: 1%;
+    margin-bottom: 3%;
+}
+
+main table{
+    width: 70%;
+    height: auto;
+
+    border-collapse: collapse;
+}
+
+th , td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+    vertical-align: top;
+}
+
+td input{
+    width: 50%;
+    height: 2em;
+
+    text-align: center;  
+    margin: auto;
+}
+
+

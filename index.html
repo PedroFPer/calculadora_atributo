@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <title>Calculadora de atributo</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora de atributos</h1>
+    </header>
+    <main>
+        <article>
+            <h2>
+                Resumo: Point buy
+            </h2>
+            <p> O Point Buy no Dungeons & Dragons (D&D) é um método de distribuição de atributos que permite personalizar seu personagem
+            de forma equilibrada. Cada jogador recebe um número fixo de pontos, normalmente 27, para distribuir entre os atributos.
+            
+            Os atributos começam em 8 e podem ser aumentados gastando pontos, mas o custo não é linear: quanto maior o valor de um
+            atributo, mais caro ele se torna. Por exemplo, subir Força de 13 para 14 custa 7 pontos, e aumentar de 14 para 15 custa
+            9 pontos.
+            
+            O sistema impõe um limite inicial de 8 a 15 para os atributos, mas esse valor pode ser ultrapassado com os bônus
+            raciais. Esse método garante que todos os personagens tenham um nível de poder equilibrado, evitando extremos muito
+            baixos ou altos. </p>
+
+            <h2>
+                Modificadores de atributos
+            </h2>
+            <p>
+                No Dungeons & Dragons (D&D), o Point Buy permite distribuir 27 pontos entre os atributos, que variam de 8 a 15 antes dos
+                bônus raciais. O custo para aumentar um atributo cresce conforme o valor sobe, tornando escolhas estratégicas
+                essenciais. Cada atributo possui um modificador, calculado como(Atributo-10)/2, arredondado para baixo, influenciando testes, ataques e salvaguardas. Por exemplo, um atributo 14 tem modificador +2, enquanto um 8 tem -1. Esse sistema garante equilíbrio e personalização na criação de personagens.
+            </p>
+        </article>
+
+        <table>
+            <tbody>
+                <tr>
+                    <th>Atributo</th>
+                    <th>Pontos de Atributos</th>
+                    <th>Pontos raciais</th>
+                    <th>Pontos de habilidade totais</th>
+                    <th>Modificador de atributo</th>
+                </tr>
+                <tr>
+                    <th>Força</th>
+                    <td class="inputAtributo"><input type="number" id="habilFor" name="habilFor" min="8" max="15" step="1" value="8"></td>
+                    <td class="inputAtributo"><input type="number" id="racaFor" name="racaFor" min="0" max="3" step="0" value="0"></td>
+                    <td id="pontoTotFor">0</td>
+                    <td id="modicAtribFor">-1</td>
+                </tr>
+
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="3"></td>
+                    <td><p>Total de pontos: </p></td>
+                    <td id="totalPontoGeral">27</td>
+                </tr>
+            </tfoot>
+        </table>
+    </main>
+
+    <footer>
+        <h2> Site criado por Pedro Ferreira</h2>
+    </footer>
+
+    <script defer type="module" src="script.js"></script>
+</body>
+</html>
