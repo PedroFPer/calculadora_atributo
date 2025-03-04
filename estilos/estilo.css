@@ -31,6 +31,8 @@ main{
     flex-direction: column;
 
     background-color: rgb(181, 203, 218);
+
+    padding-bottom: 10%;
 }
 
 main article{
@@ -44,6 +46,7 @@ main table{
     height: auto;
 
     border-collapse: collapse;
+
 }
 
 th , td{
