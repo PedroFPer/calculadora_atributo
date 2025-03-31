@@ -1,4 +1,4 @@
-#Calculadora de Compra de Atributos - Dungeons & Dragons (D&D)
+Calculadora de Compra de Atributos - Dungeons & Dragons (D&D)
 
 Este projeto foi desenvolvido para aprofundar meus conhecimentos em JavaScript, explorando conceitos importantes como eventos, operadores matemáticos, arrays e fundamentos básicos da linguagem. A proposta é criar uma ferramenta interativa que simula o sistema de compra de atributos do Dungeons & Dragons (D&D), permitindo que os usuários calculem o custo de pontos ao distribuir atributos em seus personagens.
 
